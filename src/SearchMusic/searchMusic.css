@@ -1,0 +1,48 @@
+.searchForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    font-family: 'Architects Daughter', sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.search-list-items {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 50%;
+}
+
+.search-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #c19749;
+    margin: 7px 0;
+}
+
+.songName {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 22px;
+}
+
+.artist {
+    font-family: 'Sansita Swashed', sans-serif;
+    font-size: 19px;
+
+}

@@ -1,0 +1,29 @@
+.App {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial Narrow", sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.navLink {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-family: 'Sansita Swashed', sans-serif;
+}
+
+.navLink:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: .3s;
+}

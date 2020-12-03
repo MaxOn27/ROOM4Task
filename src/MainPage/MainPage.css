@@ -1,0 +1,83 @@
+.songs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #b57429;
+    margin: 0;
+    padding: 0;
+}
+
+.list-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    list-style: none;
+    margin: 0;
+}
+
+.list-item {
+    border: 3px solid #a4a3a3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.song-artist-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+}
+
+.song-artist-img-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+}
+
+.name {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 22px;
+    margin: 0;
+}
+
+.artist-name {
+    font-family: 'Sansita Swashed', sans-serif;
+    font-size: 19px;
+    margin: 0;
+    color: #000000;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.btn {
+    outline: none;
+    background: none;
+    border: 1px solid #a4a3a3;
+    border-radius: 10px;
+}
+
+.link {
+    font-family: 'Special Elite', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
